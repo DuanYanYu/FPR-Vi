@@ -1,0 +1,295 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.content.data-v-57280228 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding: 40rpx;
+}
+.logo.data-v-57280228 {
+  height: 200rpx;
+  width: 200rpx;
+  margin-top: 100rpx;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50rpx;
+}
+.text-area.data-v-57280228 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.title.data-v-57280228 {
+  font-size: 28rpx;
+  color: #606266;
+}
+.button-demo.data-v-57280228 {
+  margin-top: 80rpx;
+}
+.link-demo.data-v-57280228 {
+  margin-top: 80rpx;
+}
+view.cardImage.data-v-57280228 {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  margin-left: -190rpx;
+  width: 380rpx;
+  height: 380rpx;
+}
+/* 初始化样式 */
+view.data-v-57280228, image.data-v-57280228 {
+  margin: 0;
+  padding: 0;
+}
+/* 头部样式-----------------始 */
+.head.data-v-57280228 {
+  position: relative;
+  width: 100%;
+  height: 240rpx;
+}
+/* 头部背景 */
+.head image.data-v-57280228 {
+  width: 100%;
+  height: 240rpx;
+}
+/* 头部标题 */
+.head .head_top.data-v-57280228 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-left: -5em;
+  font-weight: 700;
+  font-size: 20px;
+}
+/* 头部样式----------------------终 */
+/* 主内容样式--------------------始 */
+.body.data-v-57280228 {
+  width: 750rpx;
+  height: 700rpx;
+}
+.body .content.data-v-57280228 {
+  position: relative;
+  height: 400rpx;
+  display: grid;
+  place-items: center;
+}
+.body .content0.data-v-57280228,
+.body .content1.data-v-57280228,
+.body .content2.data-v-57280228,
+.body .content3.data-v-57280228 {
+  position: absolute;
+}
+.body .content0.data-v-57280228 {
+  z-index: 555;
+  left: 50%;
+  margin-left: -230rpx;
+  width: 460rpx;
+  height: 460rpx;
+  background-color: rgba(88, 181, 230, 0.1);
+  border-radius: 220rpx;
+  -webkit-animation: fade_0-data-v-57280228 1.7s ease-in 0s infinite;
+  animation: fade_0-data-v-57280228 1.7s ease-in 0s infinite;
+}
+.body .content1.data-v-57280228 {
+  position: absolute;
+  z-index: 666;
+  left: 50%;
+  margin-left: -205rpx;
+  width: 410rpx;
+  height: 410rpx;
+  background-color: rgba(88, 181, 230, 0.2);
+  border-radius: 200rpx;
+  -webkit-animation: fade_3-data-v-57280228 1.7s ease-in 0s infinite;
+  animation: fade_3-data-v-57280228 1.7s ease-in 0s infinite;
+}
+.body .content2.data-v-57280228 {
+  /*水平垂直居中*/
+  position: absolute;
+  z-index: 777;
+  left: 50%;
+  margin-left: -180rpx;
+  width: 360rpx;
+  height: 360rpx;
+  background-color: rgba(88, 181, 230, 0.5);
+  border-radius: 180rpx;
+  -webkit-animation: fade_2-data-v-57280228 1.7s ease-in 0s infinite;
+  animation: fade_2-data-v-57280228 1.7s ease-in 0s infinite;
+}
+.body .content3.data-v-57280228 {
+  position: absolute;
+  z-index: 888;
+  /*水平垂直居中*/
+  left: 50%;
+  margin-left: -150rpx;
+  width: 300rpx;
+  height: 300rpx;
+  background-color: #58b5e6;
+  border-radius: 150rpx;
+  -webkit-animation: fade_1-data-v-57280228 1.7s ease-in 0s infinite;
+  animation: fade_1-data-v-57280228 1.7s ease-in 0s infinite;
+}
+.body .content4.data-v-57280228 {
+  position: absolute;
+  left: 50%;
+  margin-left: -150rpx;
+  z-index: 999;
+  display: inline-block;
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 150rpx;
+  -webkit-animation: fade_5 1.7s ease-in 0s infinite;
+  animation: fade_5 1.7s ease-in 0s infinite;
+}
+/* 拍照按钮 */
+.body button.data-v-57280228 {
+  width: 280rpx;
+  margin-top: 200rpx;
+}
+/* 从相册选择照片*/
+.body .pic.data-v-57280228 {
+  margin-top: 40rpx;
+  text-align: center;
+}
+/* 主内容样式--------------------终 */
+.recognition.data-v-57280228 {
+  display: inline-block;
+  margin-bottom: .5em;
+  width: 100%;
+  text-align: center;
+  color: green;
+}
+/* 动画 */
+@-webkit-keyframes fade_1-data-v-57280228 {
+0% {
+    opacity: 0;
+}
+12% {
+    opacity: 1;
+}
+24% {
+    opacity: 1;
+}
+36% {
+    opacity: 1;
+}
+48% {
+    opacity: 1;
+}
+60% {
+    opacity: 0;
+}
+72% {
+    opacity: 0;
+}
+88% {
+    opacity: 0;
+}
+100% {
+    opacity: 0;
+}
+}
+@-webkit-keyframes fade_2-data-v-57280228 {
+0% {
+    opacity: 0;
+}
+12% {
+    opacity: 0;
+}
+24% {
+    opacity: 1;
+}
+36% {
+    opacity: 1;
+}
+48% {
+    opacity: 1;
+}
+60% {
+    opacity: 1;
+}
+72% {
+    opacity: 0;
+}
+88% {
+    opacity: 0;
+}
+100% {
+    opacity: 0;
+}
+}
+@-webkit-keyframes fade_3-data-v-57280228 {
+0% {
+    opacity: 0;
+}
+12% {
+    opacity: 0;
+}
+24% {
+    opacity: 0;
+}
+36% {
+    opacity: 1;
+}
+48% {
+    opacity: 1;
+}
+60% {
+    opacity: 1;
+}
+72% {
+    opacity: 1;
+}
+88% {
+    opacity: 0;
+}
+100% {
+    opacity: 0;
+}
+}
+@-webkit-keyframes fade_0-data-v-57280228 {
+0% {
+    opacity: 0;
+}
+12% {
+    opacity: 0;
+}
+24% {
+    opacity: 0;
+}
+36% {
+    opacity: 0;
+}
+48% {
+    opacity: 1;
+}
+60% {
+    opacity: 1;
+}
+72% {
+    opacity: 1;
+}
+88% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+}
+}
+

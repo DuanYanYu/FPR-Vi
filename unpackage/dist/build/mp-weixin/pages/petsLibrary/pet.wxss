@@ -1,0 +1,2 @@
+.head text{display:block;text-align:center}.head .title{margin:28rpx 0;font-size:48rpx;font-weight:700}.head .tem-title{font-size:30rpx;margin:10rpx 0 50rpx}.title2{display:block;text-align:center;margin:28rpx 0;font-size:32rpx;font-weight:700}.box{margin:40rpx auto 5rpx;width:90%;border-radius:16rpx;padding-bottom:1.5em}.box .labe,
+.box .text-info{font-size:30rpx}.box .ladi{font-size:24rpx}.box .labe{text-align:center;font-weight:700;color:#606266}.box .text-info{text-align:left}.row-margin{margin:10rpx 0}.wall{width:90%;margin:0 auto}

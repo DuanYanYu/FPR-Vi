@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "u-row": "/uview-ui/components/u-row/u-row",
+    "u-col": "/uview-ui/components/u-col/u-col",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "u-time-line": "/uview-ui/components/u-time-line/u-time-line",
+    "u-time-line-item": "/uview-ui/components/u-time-line-item/u-time-line-item",
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-tabbar": "/uview-ui/components/u-tabbar/u-tabbar"
+  }
+}

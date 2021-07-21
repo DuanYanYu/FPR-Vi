@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "专家社区",
+  "usingComponents": {
+    "u-link": "/uview-ui/components/u-link/u-link",
+    "u-tabbar": "/uview-ui/components/u-tabbar/u-tabbar"
+  }
+}

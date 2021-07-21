@@ -1,0 +1,49 @@
+
+.content {
+  width: 600rpx;
+  margin: 80rpx auto 0;
+}
+.title {
+  text-align: left;
+  font-size: 60rpx;
+  font-weight: 500;
+  margin-bottom: 100rpx;
+}
+.title u-input {
+  margin-top: 2em;
+  text-align: left;
+  margin-bottom: 10rpx;
+  padding-bottom: 6rpx;
+}
+.uForm {
+  margin-top: 2em;
+}
+.getCaptcha {
+  margin-top: 1em;
+  background-color: rgb(253, 243, 208);
+  color: #666666;
+  border: none;
+  font-size: 30rpx;
+  padding: 12rpx 0;
+&::after {
+    border: none;
+}
+}
+.head-avatar {
+  text-align: center;
+}
+.wrap {
+  padding: 40rpx;
+}
+.u-avatar-wrap {
+  margin-top: 80rpx;
+  overflow: hidden;
+  margin-bottom: 80rpx;
+  text-align: center;
+}
+.u-avatar-demo {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 100rpx;
+}
+

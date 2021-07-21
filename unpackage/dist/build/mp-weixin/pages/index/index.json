@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "扫一扫",
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-card": "/uview-ui/components/u-card/u-card",
+    "u-tabbar": "/uview-ui/components/u-tabbar/u-tabbar"
+  }
+}

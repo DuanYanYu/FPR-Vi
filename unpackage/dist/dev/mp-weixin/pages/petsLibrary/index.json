@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "智虫库",
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-row": "/uview-ui/components/u-row/u-row",
+    "u-col": "/uview-ui/components/u-col/u-col",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-tabbar": "/uview-ui/components/u-tabbar/u-tabbar",
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top"
+  }
+}

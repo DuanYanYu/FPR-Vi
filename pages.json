@@ -1,0 +1,162 @@
+{
+  "easycom": {
+    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "扫一扫"
+      }
+    },
+    {
+      "path": "pages/petsLibrary/index",
+      "style": {
+        "navigationBarTitleText": "智虫库"
+      }
+    },
+    {
+      "path": "pages/petsLibrary/pet",
+      "style": {
+        "navigationBarTitleText": "详情页"
+      }
+    },
+    {
+      "path": "pages/folkMasters/index",
+      "style": {
+        "navigationBarTitleText": "高手社区"
+      }
+    },
+    {
+      "path": "pages/folkMasters/comment",
+      "style": {
+        "navigationBarTitleText": "详细评论"
+      }
+    },
+    {
+      "path": "pages/folkMasters/push",
+      "style": {
+        "navigationBarTitleText": "发帖"
+      }
+    },
+    {
+      "path": "pages/expert/index",
+      "style": {
+        "navigationBarTitleText": "询问专家"
+      }
+    },
+    {
+      "path": "pages/user/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/user/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/user/loginByPwd",
+      "style": {
+        "navigationBarTitleText": "密码登录"
+      }
+    },
+    {
+      "path": "pages/user/register",
+      "style": {
+        "navigationBarTitleText": "账号注册"
+      }
+    },
+    {
+      "path": "pages/user/edit",
+      "style": {
+        "navigationBarTitleText": "信息修改"
+      }
+    },
+    {
+      "path": "pages/user/code",
+      "style": {
+        "navigationBarTitleText": "验证码"
+      }
+    },
+    {
+      "path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+      "style": {
+        "navigationBarTitleText": "头像裁剪",
+        "navigationBarBackgroundColor": "#000000"
+      }
+    }, 
+    {
+      "path": "pages/noPage/404",
+      "style": {
+        "navigationBarTitleText": "未知页面",
+        "enablePullDownRefresh": false
+      }
+
+    }
+    ],
+  // "subPackages": [{
+  //   "root": "pages/template",
+  //   "pages": [
+  //     // test-测试
+  //     {
+  //       "path": "user/login",
+  //       "style": {
+  //         "navigationBarTitleText": "登录"
+  //       }
+  //     }
+  //   ]
+  // }],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uView",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#303133",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/folkMasters/index",
+        "iconPath": "/static/icon/cum.png",
+        "selectedIconPath": "/static/icon/cum-full.png",
+        "text": "高手社区"
+      }, {
+        "pagePath": "pages/expert/index",
+        "iconPath": "/static/icon/rc.png",
+        "selectedIconPath": "/static/icon/rc-full.png",
+        "text": "专家社区"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/icon/scan.png",
+        "selectedIconPath": "/static/icon/scan-full.png",
+        "text": "扫一扫"
+      },
+      {
+        "pagePath": "pages/petsLibrary/index",
+        "iconPath": "account",
+        "selectedIconPath": "account-fill",
+        "text": "智虫库"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "account",
+        "selectedIconPath": "account",
+        "text": "我"
+      }
+    ]
+  },
+  "condition": { //模式配置，仅开发期间生效
+    "current": 0, //当前激活的模式(list 的索引项)
+    "list": [{
+      "name": "", //模式名称
+      "path": "", //启动页面，必选
+      "query": "" //启动参数，在页面的onLoad函数里面得到
+    }]
+  }
+}

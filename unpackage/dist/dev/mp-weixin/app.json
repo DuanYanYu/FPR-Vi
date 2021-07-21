@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/petsLibrary/index",
+    "pages/petsLibrary/pet",
+    "pages/folkMasters/index",
+    "pages/expert/index",
+    "pages/user/index",
+    "pages/user/login",
+    "pages/user/loginByPwd",
+    "pages/user/register",
+    "pages/user/edit",
+    "pages/user/code",
+    "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+    "pages/noPage/404"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uView",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#303133",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/folkMasters/index",
+        "iconPath": "/static/icon/cum.png",
+        "selectedIconPath": "/static/icon/cum-full.png",
+        "text": "高手社区"
+      },
+      {
+        "pagePath": "pages/expert/index",
+        "iconPath": "/static/icon/rc.png",
+        "selectedIconPath": "/static/icon/rc-full.png",
+        "text": "专家社区"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/icon/scan.png",
+        "selectedIconPath": "/static/icon/scan-full.png",
+        "text": "扫一扫"
+      },
+      {
+        "pagePath": "pages/petsLibrary/index",
+        "iconPath": "account",
+        "selectedIconPath": "account-fill",
+        "text": "智虫库"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "account",
+        "selectedIconPath": "account",
+        "text": "我"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
