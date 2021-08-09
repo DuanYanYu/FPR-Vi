@@ -15,7 +15,7 @@
 **安卓手机APP安装包下载地址**
 
 ```
-源代码地址：
+源代码地址：[gitee仓库](https://gitee.com/yan_duan/fpr-vi)
 
 APP安装包下载地址：暂无
 ```
